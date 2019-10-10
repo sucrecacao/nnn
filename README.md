@@ -190,37 +190,38 @@ The list below is from the **dev branch**. Press <kbd>?</kbd> in `nnn` to see th
 
 ```
  NAVIGATION
-          ↑ k  Up          PgUp ^U  Scroll up
-          ↓ j  Down        PgDn ^D  Scroll down
-          ← h  Parent dir  ~ ` @ -  HOME, /, start, last
-        ↵ → l  Open file/dir     .  Toggle show hidden
-         g ^A  First entry    G ^E  Last entry
-            b  Pin current dir  ^B  Go to pinned dir
-      (Sh)Tab  Cycle context     d  Toggle detail view
-         , ^/  Lead key    N LeadN  Context N
-            /  Filter/Lead  Ins ^N  Toggle nav-as-you-type
-          Esc  Exit prompt   ^L F5  Redraw/clear prompt
-            ?  Help, conf  ' Lead'  First file
-         Q ^Q  Quit  ^G  QuitCD  q  Quit context
+          ↑ k   Up                PgUp ^U         Scroll up
+          ↓ j   Down              PgDn ^D         Scroll down
+          ← h   Parent dir        ~ ` @ -         HOME, /, start, last
+        ↵ → l   Open file/dir     .               Toggle show hidden
+         g ^A   First entry       G ^E            Last entry
+            b   Pin current dir   ^B              Go to pinned dir
+      (Sh)Tab   Cycle context     d               Toggle detail view
+         , ^/   Lead key          N               LeadN  Context N
+            /   Filter/Lead       Ins ^N          Toggle nav-as-you-type
+          Esc   Exit prompt       ^L F5           Redraw/clear prompt
+            ?   Help, conf        ' Lead'         First file
+         Q ^Q   Quit              ^G  QuitCD  q   Quit context
  FILES
-           ^O  Open with...      n  Create new/link
-            D  File detail   ^R F2  Rename/duplicate
-         ⎵ ^J  Select entry      r  Batch rename
-         m ^K  Sel range, clear  M  List selection
-            a  Select all        K  Edit selection
-            P  Copy selection    X  Delete selection
-            V  Move selection   ^X  Delete entry
-            f  Create archive    C  Execute entry
-           ^F  Extract archive   F  List archive
-            e  Edit in EDITOR    p  Open in PAGER
+           ^O   Open with...      n               Create new/link
+            D   File detail       ^R F2           Rename/duplicate
+         ⎵ ^j   select entry      r               Batch rename
+         m ^k   sel range, clear  M               List selection
+            a   Select all        K               Edit selection
+            P   Copy selection    X               Delete selection
+            V   Move selection    ^X              Delete entry
+            f   Create archive    C               Execute entry
+           ^F   Extract archive   F               List archive
+            e   Edit in EDITOR    p               Open in PAGER
  ORDER TOGGLES
-            A  Apparent du       S  du
-            s  Size    E  Extn   t  Time
+            A   Apparent du       S               du
+            s   Size    E  Extn   t               Time
  MISC
-         ! ^]  Shell             =  Launcher
-         R ^V  Pick plugin   :K xK  Execute plugin K
-            c  SSHFS mount       u  Unmount
-           ^P  Prompt/run cmd    L  Lock
+         ! ^]   Shell             =               Launcher
+         R ^V   Pick plugin       :K xK           Execute plugin K
+            c   SSHFS mount       u               Unmount
+           ^P   Prompt/run cmd    L               Lock
+
 ```
 
 Notes:
